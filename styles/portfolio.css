@@ -254,7 +254,7 @@ footer > .footer-column{
     width: 50%;
     display: inline-block;
 }
-.footer-column> .social-links{
+.footer-column >.social-links img{
     margin-right: 25px;
 }
 .contact > input, textarea{
