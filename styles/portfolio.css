@@ -67,7 +67,7 @@ nav>ul>li .btn-primary {
     align-items: center;
 }
 
-.banner .prifile-pic {
+.banner .profile-pic {
     width: 500px;
 }
 
@@ -192,4 +192,40 @@ main {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     gap: 24px;
     padding: 33px;
+}
+
+/* Resume section bellow */
+
+.resume {
+    margin: 130px 150px 0 150px;
+}
+
+.resume>.resume-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+
+.resume>.resume-container {
+    display: flex;
+}
+
+.resume>.resume-item>.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume>.resume-item>.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume>.resume-item>.resume-item-description {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
